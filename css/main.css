@@ -1,0 +1,66 @@
+@font-face { font-family: Melee; src: url('fonts/UniversLTStd-BoldCn.otf'); } 
+/*
+gold-#FFA630
+*/
+.hidden{
+    display: none;
+}
+.name{
+    color:red;
+}
+p{
+    font-family: Melee;
+    color:white;
+    font-size:1.2rem;
+}
+a{
+    text-decoration: underline;
+}
+.bodyIns{
+    background-color: #4fc08d;
+    padding:1%;
+    min-height: 100vh;
+    justify-content: center;
+}
+.table{
+    width:100%;
+}
+.alert{
+    display: none;
+}
+.thumb{
+    width:50px;
+}
+.input{
+    border:none;
+    font-family: Melee;
+    padding:5px;
+    background-color:rgba(255,255,255,.5);
+}
+.upNum{
+    float:left;
+}
+.starOff{
+    float:right;
+    background-color: rgba(0,0,0,.25);
+    border-radius:5px;
+    margin-right:10px;
+    width:25px;
+    transition:.2s;
+}
+.starOn{
+    float:right;
+    background-color: rgba(255,255,255,.25);
+    border-radius:5px;
+    margin-right:10px;
+    width:25px;
+    transition:.2s;
+}
+@media screen and (max-width:500px){
+    p{
+        font-size: .7rem;
+    }
+    .starOff{
+        width:10px;
+    }
+}
